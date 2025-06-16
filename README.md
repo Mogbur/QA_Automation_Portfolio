@@ -34,31 +34,30 @@ I built this project from scratch while learning and implementing real-world tes
 ## 📁 Folder Structure
 
 QA_Portfolio/
+├── tests/                   # ✅ 13 test cases (UI, API, E2E)
+│   ├── test_account_creation_fill_form.py
+│   ├── test_api_jsonplaceholder.py
+│   ├── test_google_search.py
+│   ├── test_login_cases.py
+│   ├── test_login_herokuapp.py
+│   ├── test_login_param.py
+│   ├── test_logout_and_delete_account.py
+│   ├── test_negative_login_cases.py
+│   ├── test_search.py
+│   ├── test_search_intentional_fail.py
+│   ├── test_signup_form_validation.py
+│   ├── test_signup_success.py
+│   └── test_ui_elements_after_signup.py
 │
-├── tests/ # ✅ 13 test cases (UI, API, E2E)
-│ ├── test_account_creation_fill_form.py
-│ ├── test_api_jsonplaceholder.py
-│ ├── test_google_search.py
-│ ├── test_login_cases.py
-│ ├── test_login_herokuapp.py
-│ ├── test_login_param.py
-│ ├── test_logout_and_delete_account.py
-│ ├── test_negative_login_cases.py
-│ ├── test_search.py
-│ ├── test_search_intentional_fail.py
-│ ├── test_signup_form_validation.py
-│ ├── test_signup_success.py
-│ └── test_ui_elements_after_signup.py
+├── utils/                   # 🔧 Custom helper functions
+│   ├── overlay_handler.py
+│   └── screenshot.py
 │
-├── utils/ # 🔧 Custom helper functions
-│ ├── overlay_handler.py # Removes popup overlays
-│ └── screenshot.py # Takes screenshot on test failure
+├── reports/                # 📝 HTML reports from test runs
+│   └── test_report.html
 │
-├── reports/ # 📝 HTML reports from test runs
-│ └── test_report.html
-│
-└── screenshots/ # 📸 Screenshots from failed tests
-└── *.png
+└── screenshots/            # 📸 Screenshots from failed tests
+    └── *.png
 
 ---
 
