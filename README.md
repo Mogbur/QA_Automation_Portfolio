@@ -65,7 +65,7 @@ QA_Portfolio/
 
 This test automates a full signup ➝ logout ➝ login ➝ account deletion flow using Python, Selenium, and Pytest.
 
-![Logout & Delete Demo](QA_Portfolio/demo_logout_delete.gif)
+![Logout & Delete Demo](QA_Portfolio/demo_logout_delete.gif.gif)
 
 ---
 
