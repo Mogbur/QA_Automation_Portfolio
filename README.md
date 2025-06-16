@@ -33,6 +33,7 @@ I built this project from scratch while learning and implementing real-world tes
 
 ## 📁 Folder Structure
 
+```
 QA_Portfolio/
 ├── tests/                   # ✅ 13 test cases (UI, API, E2E)
 │   ├── test_account_creation_fill_form.py
@@ -58,8 +59,7 @@ QA_Portfolio/
 │
 └── screenshots/            # 📸 Screenshots from failed tests
     └── *.png
-
----
+```
 
 ## 🧪 Demo
 
