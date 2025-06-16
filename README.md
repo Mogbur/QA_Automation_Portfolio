@@ -90,6 +90,17 @@ This test automates a full signup ➝ logout ➝ login ➝ account deletion flow
 
 ---
 
+## ⚡ Quick Start
+
+Clone this repo, install the dependencies, and run all tests:
+
+```bash
+git clone https://github.com/Mogbur/QA_Automation_Portfolio.git
+cd QA_Automation_Portfolio
+pip install -r requirements.txt
+pytest tests/ --html=reports/test_report.html
+
+
 ## 📦 Run Tests
 
 1. **Install requirements**
@@ -103,6 +114,11 @@ This test automates a full signup ➝ logout ➝ login ➝ account deletion flow
     
 3. **View screenshots**
 - Any test that fails will create a screenshot in `screenshots/`.
+
+🖼️ **Sample Test Report:**  
+[View HTML Report](reports/test_report.html)  
+📸 **Example Screenshot from a Failing Test:**  
+![Sample Screenshot](screenshots/sample_fail.png)
 
 ---
 
