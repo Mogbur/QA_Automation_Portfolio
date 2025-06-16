@@ -95,10 +95,11 @@ This test automates a full signup ➝ logout ➝ login ➝ account deletion flow
 Clone this repo, install the dependencies, and run all tests:
 
 ```bash
-git clone https://github.com/Mogbur/QA_Automation_Portfolio.git
-cd QA_Automation_Portfolio
-pip install -r requirements.txt
-pytest tests/ --html=reports/test_report.html
+    git clone https://github.com/Mogbur/QA_Automation_Portfolio.git
+    cd QA_Automation_Portfolio
+    pip install -r requirements.txt
+    pytest tests/ --html=reports/test_report.html
+```
 
 ---
 
