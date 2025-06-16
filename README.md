@@ -100,6 +100,7 @@ cd QA_Automation_Portfolio
 pip install -r requirements.txt
 pytest tests/ --html=reports/test_report.html
 
+---
 
 ## 📦 Run Tests
 
@@ -107,6 +108,7 @@ pytest tests/ --html=reports/test_report.html
    ```bash
    pip install -r requirements.txt
 
+---
   
 2. **Run all tests with HTML report**
     pytest tests/ --html=reports/test_report.html
